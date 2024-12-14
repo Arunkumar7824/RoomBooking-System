@@ -1,0 +1,169 @@
+/* contacts page Style css */
+
+/*navigation and half background home page, covered the image*/
+.img{
+  background-image: url(https://img.freepik.com/free-photo/woman-comparing-colors_1163-1053.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: -200px;
+}
+
+/*navication and styling */
+.ul_1{
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+li{
+  list-style-type: none;
+  display: inline-block;
+}
+  
+  /* Google font family */
+  .span1{
+    font-family: "Satisfy", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+      
+.li1{
+  padding-top:0px;
+  padding-right: 100px;  
+}
+.roomOrder_img{
+  width: 70px;
+  height: 45px;
+  border-radius: 10px;
+  margin-right: 10px;
+  margin-bottom: -11px;
+}
+.li2{
+  padding-top:25px;
+  padding-right: 55px;
+  font-size: 14px;
+}
+.li3{
+  padding-top:25px;
+  padding-right: 55px;
+  font-size: 14px;
+}
+.li4{
+  padding-top:25px;
+  padding-right: 55px;
+  font-size: 14px;
+}
+.li5{
+  padding-top:25px;
+  padding-right:55px;
+  font-size: 14px;
+}
+.li6{
+  padding-top:25px;
+  padding-right: 55px;
+  font-size: 14px;
+}
+.i7{
+  padding-top:25px;
+  padding-right: 40px;
+  font-size: 14px;
+}
+.li8{    
+  padding-left: 190px;
+}
+  
+#a1{
+  text-decoration: none;
+  color: white;
+  text-shadow: 1px 1px 2px black;
+}
+#a2{
+  text-decoration: none;
+  color: white;
+  text-shadow: 1px 1px 1px black;
+}
+#a3{
+  text-decoration: none;
+  color:white;
+  text-shadow: 1px 1px 1px black;
+}
+#a4{
+  text-decoration: none;
+  color: white;
+  text-shadow: 1px 1px 1px black;
+}
+#a5{
+  text-decoration: none;
+  color: white;
+  text-shadow: 1px 1px 1px black;
+}
+#a6{
+  text-decoration: none;
+  color: white;
+  text-shadow: 1px 1px 1px black;
+}
+#a7{
+  text-decoration: none;
+  color: khaki;
+  text-shadow: 1px 1px 1px black;
+}
+#a8{
+  color: white;
+  text-decoration: none;
+  font-size: 22px;
+  font-weight: bold;
+}
+  
+#a2:hover{
+  color: khaki;
+  transition:1s;
+}
+#a3:hover{
+  color: khaki;
+  transition: 1s;
+}  
+#a4:hover{
+ color: khaki;
+  transition:1s;
+}
+#a5:hover{
+  color: khaki;
+  transition:1s;
+}
+#a6:hover{
+  color: khaki;
+  transition:1s;
+}
+ 
+/* content in the center */
+.contact h1{
+  text-align: center;
+  font-size: 70px;
+  margin-top: 150px;
+  padding-bottom: 100px;
+  color:white;
+  text-shadow: 2px 2px 3px black;
+}
+.content h3{
+  font-size: 40px;
+  color: darkslategray;
+}
+.content h1{
+  font-size: 70px;
+  font-family: "dancing script";
+  color: brown;
+  font-weight: bold;
+  margin-top: -20px;
+  margin-bottom: -20px;
+}
+.content{
+  margin-top: 110px;
+  margin-bottom: 100px;
+}
+
+/* last one line with black background */
+.div6 p{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 1120px;
+  float: right;
+  color: white;  
+  background-color: black;
+  }

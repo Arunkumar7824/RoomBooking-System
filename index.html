@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RoomOrders</title>
+    <!-- CSS link-->
+    <link rel="stylesheet" href="style.css">
+    <!-- Google font family (Dancing script)-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Satisfy&display=swap" rel="stylesheet">
+   
+    <!-- Awesome Icon link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+   <!-- Navication -->
+   <div class="img">
+      <ul class="ul_1">
+         <li class="li1"><a href="index.html" id="a1" ><h1><img class="roomOrder_img" src="data:image/png;base64,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" alt="">Room <span class="span1">Orders</span></h1></a></li>
+         <li class="li2"><a href="index.html" id="a2"><h3>HOME</h3></a></li>
+         <li class="li3"><a href="about.html" id="a3"><h3>ABOUT</h3></a></li>
+         <li class="li4"><a href="pricing.html" id="a4"><h3>PRICING</h3></a></li>
+         <li class="li5"><a href="news.html" id="a5"><h3>NEWS</h3></a></li>
+         <li class="li6"><a href="faqs.html" id="a6"><h3>FAQs</h3></a></li>
+         <li class="li7"><a href="Contacts.html" id="a7"><h3>CONTACT US</h3></a></li>
+         <li class="li8"><a href="logIn.html" id="a8"><h3><i class="fa-regular fa-user"></i></h3></a></li>
+      </ul>
+
+      <!-- Home page contents-->   
+      <div class="div_full">
+         <div class="div_1"> 
+             <h3>ROOMORDERS</h3>
+             <h1 id="h1_1">The Future is </h1>
+             <h1 id="h1_2">Touchless!</h1>
+             <h3 id="h3_2">Bringing hospitality into the Low-Touch Economy </h3>
+             <form action="">
+             <button id="button_1"><h3>GET A FREE DEMO!</h3></button>
+            </form>
+         </div>
+
+         <div class="div_2">
+            <form action="">
+               <input id="I1" type="text" placeholder="Hotel.restaurant or venue name"> <br>
+               <input id="I2" type="text" placeholder="Hotel.restaurant or venue website"> <br>
+               <input id="I3" type="text" placeholder="Your name "> <br>
+               <input id="I4" type="email" placeholder="E-mail address"> <br>
+               <input id="I5" type="number" placeholder="Phone number"> <br>
+               <button id="button_2"><h3>CONTACT US</h3></button>
+            </form>
+         </div>
+      </div>
+   </div>
+   <!-- second page contents-->
+   <div class="div_full2">
+      <div class="content">
+         <h2>RoomOrders</h2>
+         <h1>How does <br>RoomOrders work?</h1>
+         <p id="p1">Customers simply scan a tabletop QR code or tap an NFC tag with their smart phone, accessing a vividly illustrated digital menu. No need to download any apps. The placed order goes directly to the vendor – a hotel, restaurant, fresh food producer or other supplier – where it is processed just like any other delivery service. Customers receive notifications about the status of their order, including a feedback survey to help ensure full customer satisfaction.</p>
+         <p class="point"><span>1</span>.  Design and print QR code props</p>
+         <p class="point"><span>2</span>.  Scan QR code or tap NFC tag with your smartphone or camera</p>
+         <p class="point"><span>3</span>.  Make your order by selecting item from the menu   </p>
+      </div>
+
+      <div class="img2">
+         <img src="http://roomorders.com/cms/wp-content/uploads/2021/07/mobile.png" alt="">
+      </div>
+   </div>
+
+   <!-- horizontal image-->
+   <div class="RoomOrderImg">
+      <center>
+      <img src="https://www.fragomen.com/a/web/s7n8P3yx15F7k7H293hDfx/9eoG1E/uk-general-election-how-the-results-could-impact-hospitality-sector-recruitment-part-1-header.jpg" alt="RoomOrder-Image">
+      </center>
+   </div>
+   <!-- 3rd page contents-->
+   <div class="div_full3">
+      <div class="img3">
+         <img src="https://www.roomorders.com/cms/wp-content/uploads/2021/07/Group-7.png" alt="">
+      </div>
+      <div class="content1">
+         <h3>Digital Hotels, Resorts, Restaurants, Bars & Cafes</h3>
+         <h1>Interconnected <br>hospitality zones</h1>
+         <p class="p1">A global leader in digital hotel and resort ecosystems, RoomOrders interconnects hotels with their on-site facilities – like kitchens, restaurants, gift shops, golf courses, camping grounds, rooftops, pool-sides and marinas – as well as surrounding vendors, from restaurants to fresh food markets, pharmacies, beauty and wellness, dry cleaners, casinos and tourist attractions. </p>
+         <p class="p2">Contactless ordering and payment is not longer just a nice thing to have – it’s a necessity. </p>
+      </div>
+   </div>
+   <!-- 4th page in the six icons with below mentioned the contents-->
+   <!-- icon first row--> 
+   <div class="row1"> 
+      <div class="icon1_p1">
+         <center>
+         <i id="icon1" class="fa-solid fa-mobile-screen-button"></i>
+         <br>
+         <h2>Why RoomOrders?</h2>
+         <p>Contactless self-service via smart phone is not a craze - it's the future.</p>
+         </center>
+      </div>
+      <div class="icon2_p2">
+         <center>
+            <i id="icon2" class="fa-solid fa-coins"></i>
+         <br>
+         <h2>Save $$$</h2>
+         <p>Free implementation! No CAPEX!
+            We only charge a tiny transaction fee.</p>
+         </center>
+      </div>
+      <div class="icon3_p3">
+         <center>
+            <i id="icon3" class="fa-solid fa-code"></i>
+         <br>
+         <h2>Easy implementation</h2>
+         <p>Contactless self-service via smart phone is not a craze - it's the future.</p>
+         </center>
+      </div>
+   </div>  
+   <!-- icon second row-->
+   <div class="row2"> 
+      <div class="icon11_p11">
+         <center>
+            <i id="icon11" class="fa-regular fa-face-smile"></i>
+         <br>
+         <h2>Happy guests</h2>
+         <p>Scanning QR codes is the new norm. Customers love their own tech and they hate downloading apps! <br><span>.</span> </p>
+         </center>
+      </div>
+      <div class="icon22_p22">
+         <center>
+            <i id="icon22" class="fa-regular fa-clock"></i>
+         <br>
+         <h2>Less work. Less time</h2>
+         <p>Waiters can't see everything and be everywhere, but that should not be a reason guests should wait! Skip the line and order from anywhere. </p>
+         </center>
+      </div>
+      <div class="icon33_p33">
+         <center>
+            <i id="icon33" class="fa-solid fa-shield-halved"></i>
+         <br>
+         <h2>Easy & safe</h2>
+         <p>Reduce risks and restore guest confidence with touchless tech. <br> <span>.<br>.</span> </p>
+         </center>
+      </div>
+   </div>
+<div>
+<!-- just one content with background color-->
+<div class="testimonials">
+   <center>
+      <h3>_TESTIMONIALS_</h3>
+      <h1>What our clients say...</h1>
+      <p><a id="a1" href="">HotelTechRepot <i class="fa-solid fa-message"></i></a> <span class="span1"> <img src="https://img.freepik.com/free-vector/3d-metal-star-isolated_1308-117760.jpg?semt=ais_hybrid" alt=""> <img src="https://img.freepik.com/free-vector/3d-metal-star-isolated_1308-117760.jpg?semt=ais_hybrid" alt=""> <img src="https://img.freepik.com/free-vector/3d-metal-star-isolated_1308-117760.jpg?semt=ais_hybrid" alt=""> <img src="https://img.freepik.com/free-vector/3d-metal-star-isolated_1308-117760.jpg?semt=ais_hybrid" alt=""> <img src="https://img.freepik.com/free-vector/3d-metal-star-isolated_1308-117760.jpg?semt=ais_hybrid" alt=""> </span> <span class="span2">9.9 out of 10 based on 29 reviews </span> <a id="a2" href="https://hoteltechreport.com/food-and-beverage/mobile-ordering-room-service/roomorders" target="_blank">Read our reviews</a> </p>
+   </center>
+</div> 
+<!-- Responsive Polaroid Images / Cards-->
+<div>
+   <div class="h31">
+   <h3>ROOMORDERS IN THE MEDIA_</h3>
+   <h1>Featured News and Insights</h1>
+   </div>
+   <div class="polaroid" >
+      <div class="polaroid_1">
+         <a href=""><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTur3pZcsmbp9GgTnkwdl8ie2DMmkYJH8fCxw&s" alt=""></a>
+         <a href=""><div class="logo"><h1>09</h1><p>MAR</p></div></a>
+         <div class="container_1">
+          <p><a href="">ROOMORDERS</a></p>
+          <a href=""><h1>Tourism and investment ace vandjelic to lead RoomOrder epansion</h1></a>
+          <a href=""><h3>READ MORE</h3></a>
+          </div>
+      </div>
+      <div class="polaroid_2">
+         <a href=""><img src="https://www.roomorders.com/cms/wp-content/uploads/2022/02/maldvs-990x804-990x840.jpg" alt=""></a>
+         <a href=""><div class="logo"><h1>29</h1><p>JUL</p></div></a>
+         <div class="container_2">
+         <P><a href="">CAMPBELL BLACK</a>_<a href="">ROOM ORDERS</P>
+         <a href=""><h1>Tourism and investment ace vandjelic to lead RoomOrder epansion</h1></a>
+         <a href=""><h3>READ MORE</h3></a>
+         </div>
+      </div>
+      <div class="polaroid_3">
+         <a href=""><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5c6Cgo2f-0t31Qd_WSmSa8ZWp1CGq5LnAdg&s" alt=""></a>
+         <a href=""><div class="logo"><h1>15</h1><p>NOV</p></div></a>
+         <div class="container_3">
+         <p><a href="">ROOMORDERS</a></p>
+         <a href=""><h1>Tourism and investment ace vandjelic to lead RoomOrder epansion</h1></a>
+         <a href=""><h3>READ MORE</h3></a>
+         </div>
+      </div>
+   </div>
+</div>
+<!-- last one line with black background-->
+<div class="last">
+   <p>It was developed by Arunkumar.</p>
+</div>
+</body>
+</html>

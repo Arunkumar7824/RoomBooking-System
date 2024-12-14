@@ -1,0 +1,300 @@
+/* news page Style css */
+
+/*navigation and half background home page, covered the image*/
+.img{
+  background-image: url(https://img.freepik.com/premium-photo/chef-meticulously-chops-fresh-vegetables-wooden-cutting-board-highlighting-essence-culi_871349-83442.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/*navication and styling */
+.ul_1{
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+  
+li{
+  list-style-type: none;
+  display: inline-block;
+}
+  
+  /* Google font family */
+  .span1{
+    font-family: "Satisfy", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+      
+.li1{
+  padding-top:0px;
+  padding-right: 100px;
+}
+.roomOrder_img{
+  width: 70px;
+  height: 45px;
+  border-radius: 10px;
+  margin-right: 10px;
+  margin-bottom: -11px;
+}
+.li2{
+  padding-top:25px;
+  padding-right: 55px;
+  font-size: 14px;
+}
+.li3{
+  padding-top:25px;
+  padding-right: 55px;
+  font-size: 14px;
+}
+.li4{
+  padding-top:25px;
+  padding-right: 55px;
+  font-size: 14px;
+}
+.li5{
+  padding-top:25px;
+  padding-right:55px;
+  font-size: 14px;
+}
+.li6{
+  padding-top:25px;
+  padding-right: 55px;
+  font-size: 14px;
+}
+.li7{
+  padding-top:25px;
+  padding-right: 40px;
+  font-size: 14px;
+}
+.li8{
+  padding-left: 190px;
+}
+  
+#a1{
+  text-decoration: none;
+  color: white;
+  text-shadow: 1px 1px 1px black;
+}
+#a2{
+  text-decoration: none;
+  color: white;
+  text-shadow: 1px 1px 1px black;
+}
+#a3{
+  text-decoration: none;
+  color: white;
+  text-shadow: 1px 1px 1px black;
+}
+#a4{
+  text-decoration: none;
+  color:white;
+  text-shadow: 1px 1px 1px black;
+}
+#a5{
+  text-decoration: none;
+  color: khaki;
+  text-shadow: 1px 1px 1px black;
+}
+#a6{
+  text-decoration: none;
+  color: white;
+  text-shadow: 1px 1px 1px black;
+}#a7{
+  text-decoration: none;
+  color: white;
+  text-shadow: 1px 1px 1px black;
+}
+#a8{
+  color: white;
+  text-decoration: none;
+  font-size: 22px;
+  font-weight: bold;
+}
+  
+#a2:hover{
+  color: khaki;
+  transition:1s;
+}
+#a3:hover{
+  color: khaki;
+  transition:1s;
+}
+#a4:hover{
+  color: khaki;
+  transition:1s;
+}
+#a5:hover{
+  color: khaki;
+  transition:1s;
+}
+#a6:hover{
+  color: khaki;
+  transition:1s;
+}
+#a7:hover{
+  color: khaki;
+  transition:1s;
+}
+
+/* news title is center in the page */
+.news h1{
+  text-align: center;
+  font-size: 70px;
+  margin-top: 150px;
+  padding-bottom: 100px;
+  color:white;
+  text-shadow: 2px 2px 3px black;
+}
+
+.heading h1{
+  font-size: 50px;
+  margin-left: 80px;
+  margin-top: 100px;
+  margin-bottom: -40px;
+  color: darkslategrey;
+}
+
+/* Responsive Polaroid Images / Cards */
+.parent-content .child-content1 {
+  width: 730px;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 30px 50px 0px 10px;
+}
+.parent-content .child-content1 .content1{
+  border: 1px solid rgba(128, 128, 128, 0.192);
+  border-radius: 20px;
+  width: 270px;
+  height: auto;
+  margin: 0px 25px 0px 20px;
+  padding: 20px 30px;
+}
+.parent-content .child-content1 .button button{
+  font-size: 18px;
+  font-weight: normal;
+  padding: 7px 35px 7px 35px ;
+  background-color: darkslategray;
+  color: white;
+  border: 1px solid darkslategray;
+  border-radius: 10px;
+  margin: 150px 0px 30px 280px ;  
+}
+.parent-content .child-content1 .button button:hover{
+  color: darkslategray;
+  background-color: transparent;
+  transition: 0.6s;
+}
+.parent-content .child-content1 .content1:hover{
+  box-shadow: 0px 0px 6px 5px rgba(128, 128, 128, 0.281);
+}
+.parent-content .child-content1 .content2{
+  border: 1px solid rgba(128, 128, 128, 0.192);
+  border-radius: 20px;
+  width: 270px;
+  height: auto;
+   margin: 5px 0px 0px 20px;
+  padding: 20px 30px;    
+}
+.parent-content .child-content1 .content2:hover{
+  box-shadow: 0px 0px 6px 5px rgba(128, 128, 128, 0.281);
+}
+.parent-content .child-content2 .content1{
+  width: 360px;
+  height: auto;
+}
+.parent-content .child-content2 .content1 h1{
+  font-size: 50px;
+  color: darkslategrey;
+  font-weight: normal;  
+}
+.parent-content .child-content2 .content1 p{
+  font-size: 20px;
+  color: gray;
+  font-weight: normal;  
+}
+.parent-content .child-content2 .content1 p span{
+  font-size: 20px;
+  color: darkslategray;
+  font-weight: bold;  
+}
+.parent-content .child-content2 .content2 input{
+  font-size: 15px;
+  margin: 10px 0px 10px 0px;
+  color: darkslategray;
+  width: 350px;
+  padding: 9px 20px ;
+  font-weight: normal;  
+  border: 1px solid transparent;
+  background-color:  rgba(128, 128, 128, 0.199);
+  border-radius: 7px;
+}
+
+/* clicked the input, dose change */ 
+.parent-content .child-content2 .content2 input:focus{
+  outline: transparent;
+}
+
+.parent-content .child-content2 .content2 button{
+  font-size: 13px;
+  padding: 15px 10px 15px 10px ;
+  margin: 15px 15px 15px 0px;
+  color: white;
+  background-color:darkslategray ;
+  border: 1px solid darkslategray;
+  font-weight: bold;
+  border-radius: 4px;
+}
+.parent-content .child-content2 .content2 button:hover{
+  color: darkslategray;
+  background-color: transparent;
+  transition: 0.6s;
+}
+
+.parent-content {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 70px;
+}
+
+.parent-content .child-content1 h5{
+  font-weight: bold;
+  font-size: 16px;
+  color: gray;
+}
+.parent-content .child-content1 h2{
+  text-decoration:none;
+  font-weight: normal;
+  font-size: 28px;
+  color: black;
+}
+.parent-content .child-content1 p{
+  font-weight: bold;
+  font-size: 18px;
+  color: gray;
+}
+.parent-content .child-content1 h4{
+  text-decoration: underline;
+  font-weight: bold;
+  font-size: 26px;
+  color:darkslategrey;
+}
+.parent-content .child-content1 .content1 img{
+  border-radius: 20px;
+  width: 270px;
+  height: 220px;
+}
+.parent-content .child-content1 .content2 img{
+  border-radius: 20px;
+  width: 270px;
+  height: 220px;
+}
+
+/* last one line with black background */
+.last p{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 1120px;
+  float: right;
+  color: white;  
+  background-color: black;
+}

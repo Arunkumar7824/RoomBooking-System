@@ -1,0 +1,183 @@
+/* faqs page Style css */
+
+/*navigation and half background home page, covered the image*/
+.img{
+  background-image: url(https://st3.depositphotos.com/6419158/17938/i/450/depositphotos_179383392-stock-photo-color-pencils-cup.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/*navication and styling */
+.ul_1{
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+  
+li{
+  list-style-type: none;
+  display: inline-block;
+}
+  
+  /* Google font family */
+  .span1{
+    font-family: "Satisfy", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+      
+.li1{
+  padding-top:0px;
+  padding-right: 100px;
+}
+.roomOrder_img{
+  width: 70px;
+  height: 45px;
+  border-radius: 10px;
+  margin-right: 10px;
+  margin-bottom: -11px;
+}
+.li2{
+  padding-top:25px;
+  padding-right: 55px;
+  font-size: 14px;
+}
+.li3{
+  padding-top:25px;
+  padding-right: 55px;
+  font-size: 14px;
+}
+.li4{
+  padding-top:25px;
+  padding-right: 55px;
+  font-size: 14px;
+}
+.li5{
+  padding-top:25px;
+  padding-right:55px;
+  font-size: 14px;
+}
+.li6{
+  padding-top:25px;
+  padding-right: 55px;
+  font-size: 14px;
+}
+.li7{
+  padding-top:25px;
+  padding-right: 40px;
+  font-size: 14px;
+}
+.li8{
+  padding-left: 190px;
+}
+  
+#a1{
+  text-decoration: none;
+  color: white;
+  text-shadow: 1px 1px 1px black;
+}
+#a2{
+  text-decoration: none;
+  color: white;
+  text-shadow: 1px 1px 1px black;
+}
+#a3{
+  text-decoration: none;
+  color: white;
+  text-shadow: 1px 1px 1px black;
+}
+#a4{
+  text-decoration: none;
+  color:white;
+  text-shadow: 1px 1px 1px black;
+}
+#a5{
+  text-decoration: none;
+  color: white;
+  text-shadow: 1px 1px 1px black;
+}
+#a6{
+  text-decoration: none;
+  color: khaki;
+  text-shadow: 1px 1px 1px black;
+}#a7{
+  text-decoration: none;
+  color: white;
+  text-shadow: 1px 1px 1px black;
+}
+#a8{
+  color: white;
+  text-decoration: none;
+  font-size: 22px;
+  font-weight: bold;
+}
+  
+#a2:hover{
+  color: khaki;
+  transition:1s;
+}
+#a3:hover{
+  color: khaki;
+  transition:1s;
+}
+#a4:hover{
+  color: khaki;
+  transition:1s;
+}
+#a5:hover{
+  color: khaki;
+  transition:1s;
+}
+#a7:hover{
+  color: khaki;
+  transition:1s;
+}
+
+.faqs h1{
+  text-align: center;
+  font-size: 70px;
+  margin-top: 150px;
+  padding-bottom: 100px;
+  color:white;
+  text-shadow: 2px 2px 3px black;
+}
+
+.quations h4{
+  border: 1px solid gray;
+  border-radius: 0px 15px 0px 15px;
+  padding: 10px 50px;
+  margin: 30px 100px;
+  color:white ;
+  background-color: darkslategray;
+}  
+.quations h4:hover{
+  color: darkslategrey;
+  background-color: transparent;
+  transition: 0.6s;
+} 
+.quations div{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin: 0px 100px ;
+  color: gray;
+  letter-spacing: 2px;
+  word-spacing: 4px;
+  line-height: 2;
+}
+.quations h3{
+  font-size: 22px;
+  color: darkslategrey;
+}
+.quations h1{
+  font-family: dancing script;
+  font-size: 45px;
+  color: brown;
+}
+
+/* last one line with black background */
+.last p{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 1120px;
+  float: right;
+  color: white;
+  margin-top: 40px;
+  background-color: black;
+}

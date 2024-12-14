@@ -1,0 +1,730 @@
+/* home page Style css */
+
+/*navigation and half background home page, covered the image*/
+.img {
+  background-image: url(pexels-photo-1457842.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;  
+}
+
+/*navication and styling */
+.ul_1{
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+li{
+  list-style-type: none;
+  display: inline-block;
+}
+
+  /* Google font family */
+  .span1{
+    font-family: "Satisfy", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+    
+.li1{
+  padding-top:0px;
+  padding-right: 100px;
+  
+}
+.roomOrder_img{
+  width: 70px;
+  height: 45px;
+  border-radius: 10px;
+  margin-right: 10px;
+  margin-bottom: -11px;
+}
+.li2{
+  padding-top:25px;
+  padding-right: 55px;
+  font-size: 14px;
+}
+.li3{
+  padding-top:25px;
+  padding-right: 55px;
+  font-size: 14px;
+}
+.li4{
+  padding-top:25px;
+  padding-right: 55px;
+  font-size: 14px;
+}
+.li5{
+  padding-top:25px;
+  padding-right:55px;
+  font-size: 14px;
+}
+.li6{
+  padding-top:25px;
+  padding-right: 55px;
+  font-size: 14px;
+}
+.li7{
+  padding-top:25px;
+  padding-right: 40px;
+  font-size: 14px;
+}
+.li8{
+  padding-left: 190px;
+}
+
+#a1{
+  text-decoration: none;
+  color: white;
+  text-shadow: 1px 1px 1px black;
+}
+#a2{
+  text-decoration: none;
+  color:khaki;
+  text-shadow: 1px 1px 1px black;
+}
+#a3{
+  text-decoration: none;
+  color: white;
+  text-shadow: 1px 1px 1px black;
+}
+#a4{
+  text-decoration: none;
+  color: white;
+  text-shadow: 1px 1px 1px black;
+}
+#a5{
+  text-decoration: none;
+  color: white;
+  text-shadow: 1px 1px 1px black;
+}
+#a6{
+  text-decoration: none;
+  color: white;
+  text-shadow: 1px 1px 1px black;
+}#a7{
+  text-decoration: none;
+  color: white;
+  text-shadow: 1px 1px 1px black;
+}
+#a8{
+  color: white;
+  text-decoration: none;
+  font-size: 22px;
+  font-weight: bold;
+  
+}
+/* hover in navication titles */
+#a3:hover{
+  color: khaki;
+  transition:1s;
+}
+
+#a4:hover{
+  color: khaki;
+  transition:1s;
+}
+
+#a5:hover{
+  color: khaki;
+  transition:1s;
+}
+#a6:hover{
+  color: khaki;
+  transition:1s;
+}
+#a7:hover{
+  color: khaki;
+  transition:1s;
+}
+
+.div_full div{
+  display: inline-block;
+  color: white;
+  margin-bottom: 0px;
+}
+
+/* home page styling */
+/* over all the home page contents in the div tag */
+.div_1{
+  padding: 70px 100px 40px 40px;
+  line-height: 0px;
+}
+.div_2{
+  padding: 0px 0px 0px 180px; 
+}
+
+/* 1st div tag */
+.div_1 #h1_1,#h1_2{
+  font-size: 70px
+}
+.div_1 #h3_2{
+  font-size: 20px;
+}
+
+#h1_1{
+  padding-top: 13px;
+  padding-bottom: 13px;
+}
+#h1_2{
+  padding-bottom: 13px;
+}
+#button_1{
+  margin-top: 30px;
+  padding: 8px 40px;
+  background-color:rgba(128, 128, 128, 0.527);
+  border: 2px solid white;
+  border-radius: 5px;
+  font-size: 12px;
+  color: white;
+}
+
+/* 2nd div tag */
+
+/* clicked the input is tarnsparent */
+.div_2 input:focus{
+  outline:transparent
+}
+
+.div_2 #I1{
+  
+  margin-bottom: 16px;
+  font-size: 15px;
+  width: 500px;
+  padding: 15px 30px ;
+  border-radius: 3px;
+  border: 1px solid white;
+ 
+}
+.div_2 #I2{
+  margin-bottom: 16px;
+  font-size: 15px;
+  width: 500px;
+  padding: 15px 30px ;
+  border-radius: 3px;
+  border: 1px solid white;
+}
+.div_2 #I3{
+  margin-bottom: 16px;
+  font-size: 15px;
+  width: 500px;
+  padding: 15px 30px ;
+  border-radius: 3px;
+  border: 1px solid white;
+}
+.div_2 #I4{
+  margin-bottom: 16px;
+  font-size: 15px;
+  width: 500px;
+  padding: 15px 30px ;
+  border-radius: 3px;
+  border: 1px solid white;
+}
+.div_2 #I5{
+  margin-bottom: 16px;
+  font-size: 15px;
+  width: 500px;
+  padding: 15px 30px ;
+  border-radius: 3px;
+  border: 1px solid white;
+}
+#button_2{
+  padding: 7px 30px;
+  background-color: rgba(128, 128, 128, 0.527);
+  border: 2px solid white;
+  border-radius: 5px;
+  font-size: 12px;
+  color:white;
+  margin-bottom: 130px;
+}
+
+/* second page styling */
+.div_full2 div{
+  display: inline-block;
+  margin-bottom: -60px;
+}
+.div_full2 .content{
+  width: 450px;
+  height: 700px;
+  margin-left: 80px;
+  
+  
+}
+.div_full2 .content h2{
+  color: gray;
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 0px;
+  
+}
+.div_full2 .content h1 {
+  font-size: 50px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  opacity: 0.7;
+  font-weight: normal;
+
+}
+.div_full2 .content #p1{
+   line-height: 2;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   font-size: 18px;
+   color: gray;
+}   
+.div_full2 .img2 img{
+  width: 500px;
+  height: 600px;
+  padding-left: 150px;
+}
+.div_full2 .point{
+  color: gray;
+  font-weight: bold;
+}
+
+/* Room Order Image in Horizontal type */
+.RoomOrderImg img{
+  width: 1200px;
+  height: 340px;
+  border-radius: 25px;
+  margin-bottom: 40px;
+}
+
+/* 3rd page stylings*/
+.div_full3 div{
+  display: inline-block;
+  margin-top: 40px 0px 70px 0px;
+  
+}
+.div_full3 .img3 img{
+  width: 580px;
+  height: 410px;
+  padding: 60px 20px 0px 60px;
+}
+.div_full3 .content1 {
+  width: 500px;
+  height: 300px;
+  padding: 0px 60px 30px 0px;
+}
+.div_full3 .content1 h3{
+  color: gray;
+  font-size: 22px;
+  margin-bottom: 22px;
+  
+}
+.div_full3 .content1 h1{
+  opacity: 0.8;
+  font-weight: normal;
+  font-size: 50px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.div_full3 .content1 .p1{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: gray;
+  line-height: 2;
+  margin-top: 5px;
+  font-size: 18px;
+}
+.div_full3 .content1 .p2{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: gray;
+  line-height: 2;
+  font-size: 18px;
+  }
+
+/* First Icon Row */
+.row1 div{
+  display: inline-block;
+  margin: 100px 65px 20px 65px;
+}
+
+.icon1_p1 {  
+  width: 300px;
+  height: 250px;
+}
+.icon1_p1 #icon1{
+  font-size: 40px;
+  background-color: gray;
+  padding: 22px 26px 22px 26px;
+  border-radius: 80px;
+  color: white;
+}
+#icon1:hover{
+  color: black;
+  transition: 0.8s;  
+}
+  
+.icon2_p2 {  
+  width: 300px;
+  height: 250px;
+}
+.icon2_p2 #icon2{
+  font-size: 40px;
+  background-color: gray;
+  padding:22px;
+  border-radius: 80px;
+  color: white;
+}
+#icon2:hover{
+  color: black;
+  transition: 0.8s;    
+}
+  
+.icon3_p3 {
+  width: 300px;
+  height: 250px;
+ }
+.icon3_p3 #icon3{
+  font-size: 40px;
+  background-color: gray;
+  padding: 22px 18px 22px 18px;
+  border-radius: 80px;
+  color: white;
+}
+#icon3:hover{
+  color: black;
+  transition: 0.8s;  
+}
+
+/* Second Icon Row */
+.row2 div{
+  display: inline-block;
+  margin: 10px 65px 30px 65px;  
+}
+
+.icon11_p11 {  
+  width: 300px;
+  height: 250px;
+  padding-bottom: 0px;
+}
+.icon11_p11 #icon11{
+  font-size: 40px;
+  background-color: gray;
+  padding: 22px;
+  border-radius: 80px;
+  color: white;
+}
+.icon11_p11 span{
+  color: transparent;
+}
+#icon11:hover{
+  color: black;
+  transition: 0.8s;   
+}
+.icon11_p11 span{
+  color: transparent;
+}
+  
+.icon22_p22 {
+  width: 300px;
+  height: 250px;
+}
+
+.icon22_p22 #icon22{
+  font-size: 40px;
+  background-color: gray;
+  padding: 22px;
+  border-radius: 80px;
+  color: white;
+}
+  
+#icon22:hover{
+  color: black;
+  transition: 0.8s;    
+}
+  
+.icon33_p33 {    
+  width: 300px;
+  height: 250px;
+}
+.icon33_p33 #icon33{
+  font-size: 40px;
+  background-color: gray;
+  padding: 22px;
+  border-radius: 80px;
+  color: white;
+}
+#icon33:hover{
+  color: black;
+  transition: 0.8s;
+}
+.icon33_p33 span{
+  color: transparent;
+}
+
+/* icon rows one and two has both styling, some purpose */ 
+.row1 p, .row2 p{
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 18px;
+  color: gray;
+  line-height: 1.3; 
+}
+.row1 h2, .row2 h2{
+  font-size: 28px;
+  opacity: 0.8;
+  line-height: 1;
+  margin-bottom: -10px;
+}
+
+ /* just one content with background color */
+.testimonials {
+  background-color: rgba(128, 128, 128, 0.164);
+}   
+.testimonials h3{
+  padding: 100px 0px 0px 0px;
+  color: white;
+  font-size: 22px;
+  text-shadow: 1px 1px 2px black;
+} 
+.testimonials h1{
+  margin-top: 0px;
+  font-size: 60px;
+  opacity: 0.8;
+} 
+.testimonials p{
+  margin-top: 80px;
+  color: black;
+  padding-bottom: 100px;
+}  
+.testimonials .span1{
+  padding-left: 5px;
+  letter-spacing: -2px;
+  padding-left:25px;
+}
+.testimonials .span2{
+  padding-left: 3px;
+  padding-right: 15px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: gray;
+  font-size: 17px;
+  font-weight: bold;  
+}  
+.testimonials #a1{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color:black;
+  opacity: 0.8;
+  font-size: 18px;
+  text-decoration: none;
+  letter-spacing: -1px;
+} 
+.testimonials #a2{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color:dodgerblue;
+  opacity: 0.9;
+  font-size: 18px;
+  text-decoration: none;
+} 
+.testimonials i{
+  width :20px ;
+  height :20px;
+}
+.testimonials img{
+  width :20px ;
+  height :20px;
+  border-radius: 3px;
+}
+
+ /*Responsive Polaroid Images / Cards */
+.h31 {
+  margin-left: 80px;
+}
+.h31 h3{
+  color:darkslategrey;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: bold;
+  margin-top: 120px;
+} 
+.h31 h1{
+  margin-top: 0px;
+  font-size: 49px;
+  margin-bottom: 10px;
+}
+/* polaroid */
+.polaroid{
+  padding: 0px 60px 90px 60px;
+  margin-bottom: 0px;
+  height: 650px;
+}
+.polaroid img{
+  width: 280px;
+  height: 230px;
+  border-radius: 20px;
+}
+.polaroid a{
+  text-decoration: none;
+}
+  
+.polaroid div{
+  display: inline-block;
+  width: 280px;
+  height: 530px;
+  border-radius: 25px;
+  margin: 10px 30px 10px 30px;
+}
+  /* item 1 */
+.polaroid .polaroid_1{
+  padding-bottom:30px;
+  border: 1px solid rgba(128, 128, 128, 0.26);
+  padding: 20px 20px 100px 20px;
+  margin-left: px;
+  position: relative;
+}  
+/* small logo */
+.polaroid .polaroid_1 .logo{
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  border: 1px solid transparent;
+  border-radius: 7px 7px 7px 7px;
+  left: 170px;
+  bottom: 360px;
+  background-color:gray;
+}  
+.polaroid .polaroid_1 .logo h1{
+  margin-top: 10px;
+  margin-bottom: -9px;
+  margin-left: 0px;
+  text-align: center;
+  color: white;
+}
+.polaroid .polaroid_1 .logo p{
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 0.3rem;
+  text-align: center;
+  color: white;
+  font-size: 15px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+/* item 1 content */
+.polaroid .polaroid_1 p{
+  margin-top: 25px;
+  margin-bottom: 0px;
+  margin-left: -15px;
+}
+
+ /* item 2 */
+.polaroid .polaroid_2{
+  padding-bottom:0px;
+  border: 1px solid rgba(128, 128, 128, 0.26);
+  padding: 20px 20px 60px 20px;
+  position: relative;
+}  
+/* small logo */
+.polaroid .polaroid_2 .logo{
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  border: 1px solid transparent;
+  border-radius: 7px 7px 7px 7px;
+  left: 170px;
+  bottom: 320px;
+  background-color:gray;
+}
+.polaroid .polaroid_2 .logo h1{
+  margin-top: 10px;
+  margin-bottom: -9px;
+  margin-left: 0px;
+  text-align: center;
+  color: white;
+}
+.polaroid .polaroid_2 .logo p{
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left:0.9rem;
+  text-align: center;
+  color: white;
+  font-size: 15px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+/* item 2 content */
+.polaroid .polaroid_2 p{
+  display: inline-block;
+  margin-top: 25px;
+  margin-bottom: 0px;
+  margin-left: -15px;
+
+}
+/* item 3 */
+.polaroid .polaroid_3{
+  padding-bottom:0px;
+  border: 1px solid rgba(128, 128, 128, 0.26);
+  padding: 20px ;
+  position: relative;
+}
+/* small logo */
+.polaroid .polaroid_3 .logo{
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  border: 1px solid transparent;
+  border-radius: 7px 7px 7px 7px;
+  left: 170px;
+  bottom: 280px;
+  background-color:gray;
+}
+.polaroid .polaroid_3 .logo h1{
+  margin-top: 10px;
+  margin-bottom: -9px;
+  margin-left: 0px;
+  text-align: center;
+  color: white;
+}
+.polaroid .polaroid_3 .logo p{
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left:0.6rem;
+  text-align: center;
+  color: white;
+  font-size: 15px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+/* item 3 content  */
+.polaroid .polaroid_3 p{
+  margin-top: 25px;
+  margin-bottom: 0px;
+  margin-left: -15px;
+}
+
+.polaroid h3{
+  font-weight: normal;
+  font-size: 25px;
+  font-family: dancing script;
+  color:rgba(137, 43, 226, 0.671);
+  text-align: right;
+  margin-right: 30px;
+}
+.polaroid h1{
+  font-weight: normal;
+  color: rgba(0, 0, 0, 0.774);
+  margin-left: -20px;
+}
+.polaroid p{
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: brown;
+}
+.polaroid .polaroid_1:hover{
+  box-shadow: 0px 0px 10px 2px rgba(128, 128, 128, 0.397) ;
+  transition: 0.5s;
+}
+.polaroid .polaroid_2:hover{
+  box-shadow: 0px 0px 10px 2px rgba(128, 128, 128, 0.397) ;
+  transition: 0.5s;
+}
+.polaroid .polaroid_3:hover{
+  box-shadow: 0px 0px 10px 2px rgba(128, 128, 128, 0.397) ;
+  transition: 0.5s;
+}
+.polaroid h3:hover{
+   color: black;
+}
+.polaroid .polaroid_3 p:hover{
+  color: black;
+}
+
+/* last one line with black background */
+.last p{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 1120px;
+  float: right;
+  color: white;  
+  background-color: black;
+}
